@@ -5,7 +5,7 @@ on:
     inputs:
       ofp_link:
         description: "OFP Firmaware Link"
-        required: true
+        required: false
       filename:
         description: "The filename You want in output (make unique)"
         required: true
@@ -16,7 +16,7 @@ on:
       simage:
         description: "Do you want to merege super images, if yes then type YES otherwise NO"
         required: false
-        default: "YES"
+        default: "NO"
       region:
         description: "Specify a region for merging super iamges. Like <IN> for India."
         required: false
